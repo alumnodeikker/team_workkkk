@@ -20,42 +20,80 @@
         </nav>
     </header>
 
-    <main>
-        <!-- Sección Principal -->
-        <section>
-            <h1>Título principal de la Landing Page</h1>
-            <p>Subtítulo persuasivo para captar la atención del usuario.</p>
-            <button>Botón de Acción</button>
+    <main class="bg-gray-50 text-gray-800">
+        <!-- Hero Section -->
+        <section
+            class="min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6">
+            <div class="text-center max-w-3xl">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                    Título principal impactante
+                </h1>
+                <p class="text-lg md:text-xl mb-8 text-indigo-100">
+                    Subtítulo persuasivo para captar la atención del usuario y explicar el valor de tu producto.
+                </p>
+                <button
+                    class="bg-white text-indigo-600 font-semibold px-8 py-3 rounded-full shadow-lg hover:scale-105 hover:shadow-xl transition duration-300">
+                    Comenzar ahora
+                </button>
+            </div>
         </section>
 
-        <!-- Sección de Beneficios -->
-        <section id="servicios">
-            <h2>Lo que ofrecemos</h2>
-            <article>
-                <h3>Característica 1</h3>
-                <p>Descripción detallada del beneficio.</p>
-            </article>
-            <article>
-                <h3>Característica 2</h3>
-                <p>Descripción detallada del beneficio.</p>
-            </article>
+        <!-- Beneficios -->
+        <section id="servicios" class="py-20 px-6">
+            <div class="max-w-6xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12">
+                    Lo que ofrecemos
+                </h2>
+
+                <div class="grid md:grid-cols-2 gap-10">
+
+                    <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition duration-300">
+                        <div class="text-indigo-600 text-4xl mb-4">🚀</div>
+                        <h3 class="text-xl font-semibold mb-3">Característica 1</h3>
+                        <p class="text-gray-600">
+                            Descripción clara y enfocada en el beneficio que resuelve un problema específico del
+                            usuario.
+                        </p>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition duration-300">
+                        <div class="text-indigo-600 text-4xl mb-4">⚡</div>
+                        <h3 class="text-xl font-semibold mb-3">Característica 2</h3>
+                        <p class="text-gray-600">
+                            Otra ventaja competitiva que demuestra por qué tu producto o servicio es la mejor opción.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
         </section>
 
-        <!-- Sección de Registro -->
-        <section id="contacto">
-            <h2>Regístrate</h2>
-            <form>
-                <input type="text" placeholder="Tu nombre">
-                <input type="email" placeholder="Tu correo">
-                <button type="submit">Enviar</button>
-            </form>
+        <!-- Registro -->
+        <section id="contacto" class="bg-gray-100 py-20 px-6">
+            <div class="max-w-xl mx-auto bg-white p-10 rounded-2xl shadow-lg">
+                <h2 class="text-3xl font-bold text-center mb-8">
+                    Regístrate
+                </h2>
+
+                <form class="space-y-6">
+                    <input type="text" placeholder="Tu nombre"
+                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:outline-none transition">
+
+                    <input type="email" placeholder="Tu correo"
+                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:outline-none transition">
+
+                    <button type="submit"
+                        class="w-full bg-indigo-600 text-white font-semibold py-3 rounded-lg hover:bg-indigo-700 transition duration-300 shadow-md">
+                        Enviar
+                    </button>
+                </form>
+            </div>
         </section>
     </main>
 
-    <footer class="bg-[#f5f5f7] py-10 px-6 border-t border-gray-200">
-        <p class="max-w-5xl mx-auto text-xs text-gray-500 font-normal tracking-tight">&copy; 2024 Nombre de la Marca</p>
+    <footer>
+        <p>&copy; 2024 Nombre de la Marca</p>
     </footer>
-
 
 
 
