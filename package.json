@@ -8,8 +8,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@tailwindcss/cli": "^4.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JS-miranDev/team_workkkk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JS-miranDev/team_workkkk/issues"
+  },
+  "homepage": "https://github.com/JS-miranDev/team_workkkk#readme",
+  "description": ""
 }
